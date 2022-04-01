@@ -36,7 +36,7 @@
 def one(items):
     items_dict = {}
     for i in items:
-        items_dict.update(i = items.count(i))
+        items_dict.update({i : items.count(i)})
     return items_dict
 
 
